@@ -79,7 +79,7 @@ MonoBehaviour:
   showEditorLensSurfaceBehavior: 0
   showEditorLensFlareBehavior: 0
   showEditorGlareBehavior: 0
-  workmode: 0
+  workmode: 1
   allowGeometryShaders: 1
   allowComputeShaders: 1
   renderPriority: 1
