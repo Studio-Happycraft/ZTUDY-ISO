@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Global Volume Profile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: 6825440630166950633}
   - {fileID: 885888033340031222}
+  - {fileID: 4778020649822307892}
 --- !u!114 &885888033340031222
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -27,11 +27,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81180773991d8724ab7f2d216912b564, type: 3}
   m_Name: ChromaticAberration
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0
---- !u!114 &6825440630166950633
+    m_Value: 0.072
+--- !u!114 &4778020649822307892
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -49,16 +49,16 @@ MonoBehaviour:
     m_Value: 1
   showEditorBloomBehavior:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 1
   showEditorLensSurfaceBehavior:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 1
   showEditorLensFlareBehavior:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 1
   showEditorGlareBehavior:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 1
   isInitialized:
     m_OverrideState: 1
     m_Value: 1
@@ -81,7 +81,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 0
   workflow:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   selectiveRenderLayerMask:
     m_OverrideState: 0
@@ -89,18 +89,18 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 4294967295
   anamorphicRatio:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.611
   lumaScale:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0.5
   blooming:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   bloomThreshold:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value:
-      minValue: 1.25
+      minValue: 0.9
       maxValue: 10
   bloomScattering:
     m_OverrideState: 0
@@ -110,10 +110,10 @@ MonoBehaviour:
     m_Value: 1
   allowLensSurface:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   lensSurfaceDirtTexture:
-    m_OverrideState: 0
-    m_Value: {fileID: 0}
+    m_OverrideState: 1
+    m_Value: {fileID: 2800000, guid: f7f65a67f38885447b65b86b3aabc5b9, type: 3}
   lensSurfaceDirtIntensity:
     m_OverrideState: 1
     m_Value: 2.5
@@ -121,7 +121,7 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {fileID: 0}
   lensSurfaceDiffractionIntensity:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 2
   allowLensFlare:
     m_OverrideState: 1
@@ -188,8 +188,8 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: 2
   glareStyle:
-    m_OverrideState: 0
-    m_Value: 4
+    m_OverrideState: 1
+    m_Value: 1
   glareSample0Scattering:
     m_OverrideState: 0
     m_Value: 5
